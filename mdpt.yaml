@@ -1,0 +1,11 @@
+---
+
+- name: Install Microsoft Defender Endpoint for Linux.
+  become: yes
+  hosts: all
+
+  vars:
+    onboarding_source: /etc/ansible/WindowsDefenderATPOnboardingPackage.zip
+
+  roles:
+    - defender.mde

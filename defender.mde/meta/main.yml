@@ -1,0 +1,25 @@
+---
+
+galaxy_info:
+  role_name: mde
+  author: anand
+  description: Deploy Microsoft Defender Endpoint for Linux with Ansible.
+
+  github_branch: main
+
+  platforms:
+    - name: debian
+      versions:
+        - stretch
+        - buster
+
+  galaxy_tags:
+    - mdatp
+    - mde
+    - defender
+    - antimalware
+    - antivirus
+    - microsoft
+    - protection
+
+dependencies: []
